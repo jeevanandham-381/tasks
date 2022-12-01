@@ -1,0 +1,11 @@
+import collections
+q=collections.deque()
+print(q)
+q.appendleft(50)
+q.appendleft(40)
+print(q)
+q.append(90)
+print(q)
+q.popleft()
+print(q)
+print(q[1])

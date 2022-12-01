@@ -1,0 +1,21 @@
+import json
+dict1={}
+dict1['name']="jeeva"
+dict1["age"]=21
+dict1['place']="salem"
+dict1['college']='tpgit'
+#print(dict1)
+dict2={}
+dict2['name']="kalai"
+dict2["age"]=21
+dict2['place']="salem"
+dict2['college']='tpgit'
+print(dict2)
+dict1['place']='kovai'
+#print(dict1)
+new_dict=json.dumps(dict1)
+print(new_dict)
+new_dict1=json.loads(new_dict)
+print(new_dict1)
+print(dict1['name'])
+#print(demjson.encode(new_dict))
